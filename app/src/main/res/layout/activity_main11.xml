@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.administrator.homework1.Main11Activity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+        <EditText
+            android:id="@+id/act11edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="学号"/>
+
+        <EditText
+            android:id="@+id/act11edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="姓名"/>
+
+        <EditText
+            android:id="@+id/act11edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="年龄"
+            />
+
+        <!--<EditText-->
+            <!--android:id="@+id/act11edit3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:hint="sex"/>-->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/act11Rdbtn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="男"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/act11Rdbtn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="女"
+                />
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/act11edit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="联系电话"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/act11btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="插入数据"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/act11btn2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="全部查询"/>-->
+
+        <Button
+            android:id="@+id/act11btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除数据"/>
+        <Button
+            android:id="@+id/act11btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="修改数据"/>
+
+        <Button
+            android:id="@+id/act11btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="学号查询"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/act11list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

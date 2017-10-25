@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="m5">
+        <item>内蒙古自治区</item>
+        <item>湖北省</item>
+    </string-array>
+    <string-array name="nm">
+        <item>呼伦贝尔</item>
+        <item>呼和浩特</item>
+    </string-array>
+    <string-array name="hb">
+        <item>武汉</item>
+        <item>襄阳</item>
+    </string-array>
+    <string-array name="las">
+        <item>张三</item>
+        <item>李四</item>
+        <item>王五</item>
+        <item>马六</item>
+        <item>秤一</item>
+        <item>钱二</item>
+    </string-array>
+
+
+</resources>
